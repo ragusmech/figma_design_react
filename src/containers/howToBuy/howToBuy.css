@@ -1,0 +1,51 @@
+.howtobuy-main {
+    background-color: #FEA726;
+}
+
+.howtobuy-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+.howtobuy-content {
+    font-family: var(--font-family);
+    font-size: 32px;
+    color: #4D342E;
+    padding: 6rem 10rem;
+}
+
+.howtobuy-content p {
+    font-family: var(--font-family);
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.howtobuy-link-1 p,
+.howtobuy-link-2 p {
+    font-family: var(--font-family);
+    color: #8E8E8E;
+    font-size: 16px;
+    margin-left: 4rem;
+    font-weight: 500;
+}
+
+.howtobuy-link-1-image,
+.howtobuy-link-2-image {
+    font-family: var(--font-family);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.howtobuy-link-1-image img,
+.howtobuy-link-2-image img {
+    width: 46px;
+    height: 46px;
+}
